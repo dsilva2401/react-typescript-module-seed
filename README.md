@@ -1,4 +1,4 @@
-# my-react-typescript-package
+# react-typescript-module-seed
 
 [![NPM version][npm-image]][npm-url]
 [![Build][github-build]][github-build-url]
@@ -11,18 +11,18 @@ You can clone it and step by step create your own NPM package and publish it.
 
 It is simple React counter.
 
-[**Live Demo**](https://gapon2401.github.io/my-react-typescript-package/)
+[**Live Demo**](https://gapon2401.github.io/react-typescript-module-seed/)
 
 ## Installation:
 
 ```bash
-npm install my-react-typescript-package --save-dev
+npm install react-typescript-module-seed --save-dev
 ```
 
 or
 
 ```bash
-yarn add -D my-react-typescript-package
+yarn add -D react-typescript-module-seed
 ```
 
 ## Usage :
@@ -32,7 +32,7 @@ Add `MyCounter` to your component:
 ```js
 import React from 'react'
 import ReactDOM from 'react-dom/client'
-import { MyCounter } from 'my-react-typescript-package'
+import { MyCounter } from 'react-typescript-module-seed'
 
 const root = ReactDOM.createRoot(document.getElementById('root') as HTMLElement)
 root.render(
@@ -51,10 +51,10 @@ root.render(
 
 ```
 
-[npm-url]: https://www.npmjs.com/package/my-react-typescript-package
-[npm-image]: https://img.shields.io/npm/v/my-react-typescript-package
-[github-license]: https://img.shields.io/github/license/gapon2401/my-react-typescript-package
-[github-license-url]: https://github.com/gapon2401/my-react-typescript-package/blob/master/LICENSE
-[github-build]: https://github.com/gapon2401/my-react-typescript-package/actions/workflows/publish.yml/badge.svg
-[github-build-url]: https://github.com/gapon2401/my-react-typescript-package/actions/workflows/publish.yml
-[npm-typescript]: https://img.shields.io/npm/types/my-react-typescript-package
+[npm-url]: https://www.npmjs.com/package/react-typescript-module-seed
+[npm-image]: https://img.shields.io/npm/v/react-typescript-module-seed
+[github-license]: https://img.shields.io/github/license/gapon2401/react-typescript-module-seed
+[github-license-url]: https://github.com/gapon2401/react-typescript-module-seed/blob/master/LICENSE
+[github-build]: https://github.com/gapon2401/react-typescript-module-seed/actions/workflows/publish.yml/badge.svg
+[github-build-url]: https://github.com/gapon2401/react-typescript-module-seed/actions/workflows/publish.yml
+[npm-typescript]: https://img.shields.io/npm/types/react-typescript-module-seed
